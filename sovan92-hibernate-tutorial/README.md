@@ -48,4 +48,9 @@ Paging and sorting
 
 JPQL 
 
+### Generation Strategy 
 
+- Auto - I am not sure , you decide based on underlying DB. 
+- Identity - ORM increments the value based on previous
+- Sequence  - Database sequence. MySql doesn't offer sequence. 
+- Table - Look to the table and decide what's the next element
